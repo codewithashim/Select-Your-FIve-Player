@@ -1,0 +1,77 @@
+/* ======================================== comon css =================================*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    background: transparent !important;
+    color: whitesmoke;
+}
+
+.headerText {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    color: indianred;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* ======================================== comon css =================================*/
+/* ======================================== Header css start =================================*/
+#mainHeader {
+    width: 100%;
+    height: auto;
+
+    background: #16222A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.headerTitle {
+    padding-top: 6%;
+}
+
+.headerTitle p {
+    font-family: 'Courgette', cursive;
+    color: aliceblue;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* ======================================== header css end =================================*/
+/* ======================================== player css start =================================*/
+
+#allPlayersSection, footer {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.horiZontel{
+    width: 100%!important;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* ======================================== player css end =================================*/

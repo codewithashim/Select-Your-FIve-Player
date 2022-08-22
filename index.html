@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Select Your Five Player</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="mainHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                    <div class="d-flex justify-content-center mt-5 align-items-center flex-column headerTitle">
+                        <h1 class="headerText mb-4 mt-5">
+                            Select Your Drem Five Player And Stay ⚽⚽⚽
+                        </h1>
+                        <p>
+                            Football is one of the most celebrated sports across the world. It is moreover one of the
+                            oldest games. It is a competition of power and endurance. In terms of recognition, it is as
+                            popular as cricket.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                    <img src="./img/h-bg.png" class="img-fluid pt-5" width="100%" height="80%" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =============================== end hrader ================================ -->
+    <section id="allPlayersSection">
+        <div class="container">
+            <div class="playerTitle p-4">
+                <h1 class="text-center text-white">All Players</h1>
+            </div>
+            <!-- === title === -->
+            <div class="row mx-auto">
+                <div class="col-md-12 col-8 col-lg-8 col-sm-12">
+                    <div class="row gap-2">
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/player1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Lionel Messi</h5>
+                                    <p class="card-text text-muted">63 Goals 140 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/player2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Neymar Jr</h5>
+                                    <p class="card-text text-muted">62 Goals . 136 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/player3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Kylian Mbappé</h5>
+                                    <p class="card-text text-muted">25 Goals . 46 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/player4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Vítor Machado</h5>
+                                    <p class="card-text text-muted">39 Goals . 163 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/player5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Sergio Ramos</h5>
+                                    <p class="card-text text-muted">63 Goals . 150 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/player6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Renato Sanches</h5>
+                                    <p class="card-text text-muted">15 Goals . 130 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/EmilianoMartínez.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Emiliano Martínez</h5>
+                                    <p class="card-text text-muted">39 Goals . 70 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/FrancoArmani.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Franco Armani</h5>
+                                    <p class="card-text text-muted">12 Goals . 63 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/GermánPezzella.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Germán Pezzella</h5>
+                                    <p class="card-text text-muted">40 Goals . 48 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/GerónimoRulli.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Gerónimo Rulli</h5>
+                                    <p class="card-text text-muted">25 Goals . 60 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/GonzaloMontiel.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Gonzalo Montiel</h5>
+                                    <p class="card-text text-muted">10 Goals . 50 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow p-3 mb-5 text-white bg-dark" style="width: 16rem;">
+                                <img src="./img/Gerard_Piqué.jpg" class="card-img-top" width="200px" height="290px"
+                                    alt="" />
+                                <div class="card-body">
+                                    <h5 class="card-title playerName">Gerard Piqué</h5>
+                                    <p class="card-text text-muted">10 Goals . 50 Assist</p>
+                                    <button type="button" class="btn btn-primary submitBtn"
+                                        onclick="addPlayer(this)">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-8 col-lg-4 col-sm-12">
+                    <div class="row">
+                        <div class="col">
+                            <div class="selectedPlayer">
+                                <div class="card bg-transparent shadow p-3 " style="width: 17rem;">
+                                    <h3 class="card-title text-center text-white">Selected Players <span
+                                            id="selectedPlayers">0</span></h3>
+                                    <ul class="list-group bg-transparent list-group-flush" id="playerListUl">
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="playerAllCalucation mt-5 pb-5">
+                                <div class="card bg-transparent shadow p-4" style="width: 17rem;">
+                                    <h3 class="text-center text-white p-3">Budget</h3>
+                                    <div class="input-group mb-2">
+                                        <span class="input-group-text">Per Player</span>
+                                        <input type="number" aria-label="First name" class="form-control"
+                                            id="perPlayerInput">
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-lg"
+                                        id="calculateBtn">Calculate</button>
+                                    <h5 class="text-center text-white p-3">Player Expenses $ <span
+                                            id="totalExpence">000</span>
+                                    </h5>
+                                    <div class="input-group mb-2">
+                                        <span class="input-group-text">Manager</span>
+                                        <input type="number" aria-label="First name" class="form-control"
+                                            id="managerInput">
+                                    </div>
+                                    <div class="input-group mb-2">
+                                        <span class="input-group-text">Coach</span>
+                                        <input type="number" aria-label="First name" class="form-control"
+                                            id="coachInput">
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-lg"
+                                        id="totalCalculateBtn">Calculate
+                                        Total</button>
+                                    <h5 class="text-center text-white p-3">Total : $ <span id="totalCost">000</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="p-4 text-center">
+        <hr class="horiZontel">
+        <a href="#" class="text-white">Copyright @ 2022-2023 All Rights Reserved</a>
+    </footer>
+
+
+    <!-- ======================= js file ======================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/playerList.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
